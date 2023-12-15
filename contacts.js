@@ -42,7 +42,7 @@ async function removeContact(contactId) {
 
     if (index > 0) {
       contacts.splice(index, 1);
-      console.log(`Contacts "${contacts[index].name}" successfuly removed`.green);
+      console.log(`Contacts "${contacts[index].name}" successfully removed`.green);
       const updatedContactsJson = JSON.stringify(contacts, null, 2);
 
       return fs.writeFile(contactsPath, updatedContactsJson, 'utf-8');
@@ -78,7 +78,7 @@ async function addContact(name, email, phone) {
     const updatedContactsJson = JSON.stringify(contacts, null, 2);
 
     fs.writeFile(contactsPath, updatedContactsJson, 'utf-8');
-    return console.log(`Contact ${name} added successfuly`.green);
+    return console.log(`Contact ${name} added successfully`.green);
   } catch (error) {
     return console.log(error.message);
   }
