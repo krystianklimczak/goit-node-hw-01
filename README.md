@@ -4,19 +4,19 @@
 
 ## DEMO
 
-### node index.js --action list
+### `node index.js --action list`
 
 ![](./images/CLI_app_list.png)
 
-### node index.js --action get --id 05olLMgyVQdWRwgKfg5J6
+### `node index.js --action get --id 05olLMgyVQdWRwgKfg5J6`
 
 ![](./images/CLI_app_getById.png)
 
-### node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
+### `node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22`
 
 ![](./images/CLI_app_add.png)
 
-### node index.js --action remove --id qdggE76Jtbfd9eWJHrssH
+### `node index.js --action remove --id qdggE76Jtbfd9eWJHrssH`
 
 ![](./images/CLI_app_remove.png)
 
